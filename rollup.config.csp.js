@@ -19,6 +19,6 @@ const config = (input, file, format) => ({
 });
 
 export default [
-    config('src/index.js', 'dist/mapbox-gl-csp.js', 'umd'),
+    config('src/index.js', 'dist/mapbox-gl-csp.js', 'esm'),
     config('src/source/worker.js', 'dist/mapbox-gl-csp-worker.js', 'iife')
 ];
